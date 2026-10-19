@@ -1,0 +1,15 @@
+{
+  "geode": "4.4.0",
+  "gd": { "win": "2.2074", "android": "2.2074", "mac": "2.2074", "ios": "2.2074" },
+  "id": "yourname.click-assist",
+  "name": "Click Assist",
+  "version": "v1.0.0",
+  "developer": "Dyuttal",
+  "description": "Aim assist for clicks: early taps are held briefly so orbs and landings still register.",
+  "settings": {
+    "enabled": { "type": "bool", "name": "Enabled", "default": true },
+    "window-ms": { "type": "int", "name": "Assist window (ms)", "description": "How long a quick tap is extended so it can still catch an orb or landing.", "default": 60, "min": 0, "max": 200, "control": { "slider": true, "arrows": true } },
+    "practice-only": { "type": "bool", "name": "Practice mode only", "description": "Only assist in practice mode, so normal completions stay legit.", "default": true },
+    "show-indicator": { "type": "bool", "name": "Show indicator", "default": true }
+  }
+}
